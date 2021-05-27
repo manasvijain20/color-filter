@@ -1,0 +1,48 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Apply color filter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <style type="text/css">
+  h3
+  {
+    font-size: 25px !important;
+  }
+  canvas {
+  	border:1px solid black;
+  }
+  </style>
+</head>
+
+<body style = "background-color: seashell;">
+  <center>
+<div class="container">
+	<label style="font-family: 'Satisfy', cursive; font-size: 40px; color: black;">Apply Color Filters</label>
+	<hr>
+  <h4 style="font-family: Comic Sans MS; color: black;"> Filter color:
+  <span>
+  <input id="color_name" type="text" placeholder="Enter filter color">
+  </span>
+  </h4>
+  </div>
+  <br><br>
+  <span>
+  <button class="btn btn-info" style="color: black; margin-right: 15px;" onclick="filter_tint()"> Apply filter</button>
+  <button onclick="take_snapshot()" class="btn btn-info" style="color: black;">Take Snapshot</button>
+  <br>
+  </span>
+</div>
+</center>
+
+<script src="main.js"></script>
+</body>
+</html>
+
